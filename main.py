@@ -12,7 +12,6 @@ os.makedirs("pages", exist_ok=True)
 for idx, chunk in enumerate(chunks, 1):
     html = f"""
     <html>
-    <head><title>Keyword List {idx}</title></head>
     <body>
       <ul>
     """
